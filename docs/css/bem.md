@@ -2,7 +2,7 @@
 title: BEM
 ---
 
-<p><strong>B</strong>lock <strong>E</strong>lement <strong>M</strong>odifier</p>
+### Block Element Modifier
 
 ``` css
 .block {}
@@ -10,8 +10,9 @@ title: BEM
  /* an element is tied to it’s block and has no standalone meaning */
 .block__element—modifier {} (this is an extra class name you add to blocks)
 ```
-<hr>
-<p>In action in stylesheet:</p>
+
+---
+In action in stylesheet:
 
 ``` css
 /* Block Element */
@@ -24,8 +25,9 @@ title: BEM
 .btn--orange {} 
 .btn--big {}
 ```
-<hr>
-<p>In action in HTML</p>
+
+---
+In action in HTML:
 
 ``` html
 <div class=“card card—-black">

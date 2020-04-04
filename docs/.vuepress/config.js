@@ -6,43 +6,38 @@ module.exports = {
     sidebar: [
       {
         title: 'Components',
-        path: '/components',
-        collapsable: false,
+        collapsable: true,
         children: [
           ['/components/buttons', 'Buttons'],
         ]
       },
       {
         title: 'CSS / SASS',
-        path: '/css',
-        collapsable: false,
+        collapsable: true,
         children: [
+          ['/css/attr-selectors', 'Attribute Selectors'],
           ['/css/boilerplate', 'Boilerplate'],
           ['/css/bem', 'BEM'],
-          ['/css/sass-boilerplate', 'SASS Setup'],
-          ['/css/sass-info', 'SASS Info'],
+          ['/css/sass', 'SASS'],
         ]
       },
       {
         title: 'Javascript',
-        path: '/js',
-        collapsable: false,
+        collapsable: true,
         children: [
           ['/js/thing', 'Thing']
         ]
       },
       {
         title: 'HTML',
-        path: '/html',
-        collapsable: false,
+        collapsable: true,
         children: [
           ['/html/boilerplate', 'Thing']
         ]
       },
       {
         title: 'Dev Info',
-        path: '/dev',
-        collapsable: false,
+        collapsable: true,
         children: [
           ['/dev/thing', 'Thing']
         ]

@@ -2,7 +2,7 @@
 title: CSS Boilerplate
 ---
 
-<p>This is a simple reset. We are setting the font size to <strong>62.5%</strong> which sets our font size to 10px, so we can usually use REMs easily now, font-size: 1.6rem = font-size: 16px.</p>
+This is a simple reset. We are setting the font size to **62.5%** which sets our font size to 10px, so we can usually use REMs easily now, font-size: 1.6rem = font-size: 16px.
 
 ``` css
  *,
