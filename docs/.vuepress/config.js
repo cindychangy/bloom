@@ -5,11 +5,22 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
-        title: 'CSS',
+        title: 'Components',
+        path: '/components',
+        collapsable: false,
+        children: [
+          ['/components/buttons', 'Buttons'],
+        ]
+      },
+      {
+        title: 'CSS / SASS',
         path: '/css',
         collapsable: false,
         children: [
-          ['/css/buttons', 'Buttons']
+          ['/css/boilerplate', 'Boilerplate'],
+          ['/css/bem', 'BEM'],
+          ['/css/sass-boilerplate', 'SASS Setup'],
+          ['/css/sass-info', 'SASS Info'],
         ]
       },
       {
@@ -25,7 +36,7 @@ module.exports = {
         path: '/html',
         collapsable: false,
         children: [
-          ['/html/thing', 'Thing']
+          ['/html/boilerplate', 'Thing']
         ]
       },
       {
