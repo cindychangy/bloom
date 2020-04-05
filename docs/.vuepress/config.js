@@ -44,7 +44,8 @@ module.exports = {
         collapsable: true,
         children: [
           ['/dev/globbing', 'Globbing'],
-          ['/dev/npm', 'NPM']
+          ['/dev/npm', 'NPM'],
+          ['/dev/seo', 'SEO']
         ]
       },
     ]
