@@ -33,13 +33,6 @@ module.exports = {
         ]
       },
       {
-        title: 'HTML',
-        collapsable: true,
-        children: [
-          ['/html/boilerplate', 'Thing']
-        ]
-      },
-      {
         title: 'Dev Info',
         collapsable: true,
         children: [
