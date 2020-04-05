@@ -16,7 +16,7 @@ title: Buttons
     letter-spacing: .0892857143em;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 16px;
+    padding: 0 24px;
     display: -ms-inline-flexbox;
     display: inline-flex;
     position: relative;
@@ -40,7 +40,7 @@ title: Buttons
   .btn--purple {
     background: slateblue;
     color: #fff;
-    height: 36px;
+    height: 46px;
   }
 
   .btn--purple:hover {
@@ -48,7 +48,7 @@ title: Buttons
   }
 
   .btn--rounded {
-    border-radius: 18px;
+    border-radius: 30px;
   }
 </style>
 
@@ -67,7 +67,7 @@ title: Buttons
     letter-spacing: .0892857143em;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 16px;
+    padding: 0 24px;
     display: -ms-inline-flexbox;
     display: inline-flex;
     position: relative;
@@ -84,14 +84,14 @@ title: Buttons
     vertical-align: middle;
     cursor: pointer;
     transition: all .2s;
-    border-radius: 4px; /* 18px; for rounded button */
+    border-radius: 4px; /* 30px; for rounded button */
   }
 
   .btn--purple {
     background: slateblue;
     color: #fff;
     /* size should be declared in seperate classes, not in base */
-    height: 36px;
+    height: 46px;
 
     &:hover {
       background: slategray;
@@ -103,4 +103,19 @@ title: Buttons
 <button class="btn btn--purple">I am a button</button>
 <!-- <a href="#" role="button">I am a button</a> -->
 <!-- <button><i class="some_icon"></i><span class="some_text">Read More</span></button> -->
+```
+
+More info on when to use buttons vs links: [CSS Tricks article](https://css-tricks.com/a-complete-guide-to-links-and-buttons/) <br>
+
+### Button and Link Attributes
+When **directing user to a new tab/window**, please add the following to links to avoid spam:
+
+``` html
+ <a href="#" target="_blank" rel="noopener noreferrer">My Link</a>
+```
+
+If having users **download** an asset, add this to avoid browser opening new window/tab
+
+``` html
+<a href="/files/file.pdf" download>Download PDF</a>
 ```

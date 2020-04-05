@@ -9,6 +9,7 @@ module.exports = {
         collapsable: true,
         children: [
           ['/components/buttons', 'Buttons'],
+          ['/components/forms', 'Forms'],
         ]
       },
       {
@@ -42,7 +43,7 @@ module.exports = {
         title: 'Dev Info',
         collapsable: true,
         children: [
-          ['/dev/thing', 'Thing']
+          ['/dev/globbing', 'Globbing']
         ]
       },
     ]
