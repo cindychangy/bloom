@@ -43,7 +43,8 @@ module.exports = {
         title: 'Dev Info',
         collapsable: true,
         children: [
-          ['/dev/globbing', 'Globbing']
+          ['/dev/globbing', 'Globbing'],
+          ['/dev/npm', 'NPM']
         ]
       },
     ]
