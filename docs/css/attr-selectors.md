@@ -2,6 +2,8 @@
 title: Attribute Selectors
 ---
 
+# Attribute Selectors
+
 ### [attribute] selector
 select all elements with a specific attribute
 
@@ -55,4 +57,12 @@ selects elements whose attribute contain a specific value
 div[class*="sponsor"] {
   background: orange;
 }
+```
+
+### style all but last/first element
+
+``` css
+ &:not(:last-child){
+   border-bottom: 1px solid $000;
+  }
 ```

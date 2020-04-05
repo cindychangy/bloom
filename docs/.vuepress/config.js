@@ -18,7 +18,10 @@ module.exports = {
           ['/css/attr-selectors', 'Attribute Selectors'],
           ['/css/boilerplate', 'Boilerplate'],
           ['/css/bem', 'BEM'],
-          ['/css/sass', 'SASS'],
+          ['/css/props', 'CSS Properties'],
+          ['/css/tricks', 'CSS Tricks'],
+          ['/css/images', 'CSS Images'],
+          ['/css/sass', 'SASS']
         ]
       },
       {

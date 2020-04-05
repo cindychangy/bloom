@@ -2,7 +2,14 @@
 title: CSS Boilerplate
 ---
 
-This is a simple reset. We are setting the font size to **62.5%** which sets our font size to 10px, so we can usually use REMs easily now, font-size: 1.6rem = font-size: 16px.
+# Boilerplate
+
+### This is a simple reset.
+
+**Tip**: Font size is based on the font size of the root. Good to use for fonts and sizing as you can scale an entire project by changing the root font-size, so you don’t have to write a million media queries. 
+
+We set root font size in html selector in css to 10px or 62.5% (62.5% of 16px is 10px) for easier calculations for everything
+
 
 ``` css
  *,

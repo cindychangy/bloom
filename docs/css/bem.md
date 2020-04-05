@@ -2,7 +2,8 @@
 title: BEM
 ---
 
-### Block Element Modifier
+# Block Element Modifier
+<br>
 
 ``` css
 .block {}
