@@ -2,7 +2,14 @@
 title: CSS Images
 ---
 
-# Image Effects
+# Images
+**Lossless** - reduction in size with no compromise in quality
+*every single bit of data that was ORIGINALLY in the file remains after it is uncompressed
+
+**Lossy** - better size but loose quality
+
+**WebP** - besides showing all the pixels in something, it predicts the values of colors of neighboring pixels and only encodes the difference between the actual values and predictions - saves you lots of size!
+
 
 ## Image Filters
 

@@ -16,13 +16,14 @@ module.exports = {
         title: 'CSS / SASS',
         collapsable: true,
         children: [
+          ['/css/animations', 'Animations'],
           ['/css/attr-selectors', 'Attribute Selectors'],
           ['/css/boilerplate', 'Boilerplate'],
           ['/css/bem', 'BEM'],
           ['/css/props', 'CSS Properties'],
           ['/css/tricks', 'CSS Tricks'],
-          ['/css/images', 'CSS Images'],
-          ['/css/sass', 'SASS']
+          ['/css/images', 'Images'],
+          ['/css/sass', 'SASS'],
         ]
       },
       {
