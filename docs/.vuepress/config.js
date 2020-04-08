@@ -22,8 +22,11 @@ module.exports = {
           ['/css/bem', 'BEM'],
           ['/css/props', 'CSS Properties'],
           ['/css/tricks', 'CSS Tricks'],
+          ['/css/flexbox', 'Flexbox'],
+          ['/css/grid', 'CSS Grid'],
           ['/css/images', 'Images'],
           ['/css/sass', 'SASS'],
+          ['/css/variables', 'CSS Variables'],
         ]
       },
       {
