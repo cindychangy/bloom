@@ -18,15 +18,15 @@ module.exports = {
         children: [
           ['/css/animations', 'Animations'],
           ['/css/attr-selectors', 'Attribute Selectors'],
-          ['/css/boilerplate', 'Boilerplate'],
           ['/css/bem', 'BEM'],
+          ['/css/boilerplate', 'Boilerplate'],
           ['/css/props', 'CSS Properties'],
           ['/css/tricks', 'CSS Tricks'],
-          ['/css/flexbox', 'Flexbox'],
           ['/css/grid', 'CSS Grid'],
-          ['/css/images', 'Images'],
-          ['/css/sass', 'SASS'],
           ['/css/variables', 'CSS Variables'],
+          ['/css/flexbox', 'Flexbox'],
+          ['/css/images', 'Images'],
+          ['/css/sass', 'SASS']
         ]
       },
       {
