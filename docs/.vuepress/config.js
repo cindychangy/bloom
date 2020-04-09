@@ -26,7 +26,7 @@ module.exports = {
           ['/css/variables', 'CSS Variables'],
           ['/css/flexbox', 'Flexbox'],
           ['/css/images', 'Images'],
-          ['/css/sass', 'SASS']
+          ['/css/general-info', 'General Info']
         ]
       },
       {
@@ -37,12 +37,20 @@ module.exports = {
         ]
       },
       {
+        title: 'Vue',
+        collapsable: true,
+        children: [
+          ['/vue/general-info', 'General Info']
+        ]
+      },
+      {
         title: 'Dev Info',
         collapsable: true,
         children: [
           ['/dev/globbing', 'Globbing'],
           ['/dev/npm', 'NPM'],
-          ['/dev/seo', 'SEO']
+          ['/dev/seo', 'SEO'],
+          ['/dev/wordpress', 'Wordpress']
         ]
       },
     ]
