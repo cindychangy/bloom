@@ -10,6 +10,7 @@ module.exports = {
         children: [
           ['/components/buttons', 'Buttons'],
           ['/components/forms', 'Forms'],
+          ['/components/hovers', 'Hovers'],
         ]
       },
       {
