@@ -11,6 +11,7 @@ module.exports = {
           ['/components/buttons', 'Buttons'],
           ['/components/forms', 'Forms'],
           ['/components/hovers', 'Hovers'],
+          ['/components/fullscreen', 'Fullscreen'],
         ]
       },
       {
