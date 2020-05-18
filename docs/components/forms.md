@@ -79,17 +79,16 @@ input[type="text"]:focus {
 ```
 
 ```html
-/* simple form */
+<!--The 'for' attr must be the same as the 'id' to be 'connected'-->
 <form action="/action_page.php">
-  <input type="text" name="frist-name" placeholder="First name">
+  <label for="first-name">Name:</label>
+  <input type="text" id="first-name" name=“name” placeholder=“name">
   <input type="submit" value="Submit">
 </form>
 
-/* other types of inputs */
+<!--other types of inputs-->
   <input type="email" name"email" placeholder="Your email address">
   <input type="date" name=date-picker>
-
-/* inputs with labels */
-  <label for="first-name">First name</label>
-  <input type="text" name="frist-name" placeholder="First name">
+  <textarea id=“bio" rows=“10” cols=“50”></textarea>
+  <input type="reset" value="Reset">
 ```
