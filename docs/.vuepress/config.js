@@ -36,7 +36,8 @@ module.exports = {
         collapsable: true,
         children: [
           ['/js/arrays', 'Arrays'],
-          ['/js/functions', 'Functions']
+          ['/js/functions', 'Functions'],
+          ['/js/jquery', 'jQuery'],
         ]
       },
       {
