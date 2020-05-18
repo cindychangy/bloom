@@ -18,3 +18,20 @@ title: General Info
 
 ### Sticky Positioning
 [Good article covering this](https://medium.com/@elad/css-position-sticky-how-it-really-works-54cd01dc2d46)
+
+---
+
+### Text Highlight
+Highlight cover when mouse drags over text
+
+``` css
+ ::selection {
+   background: orange;
+   color: #fff;
+ }
+
+ ::mod-selection {
+    background: orange;
+    color: #fff;
+ }
+```

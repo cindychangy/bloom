@@ -18,17 +18,19 @@ module.exports = {
         title: 'CSS / SASS',
         collapsable: true,
         children: [
+          ['/css/alignment', 'Alignment'],
           ['/css/animations', 'Animations'],
           ['/css/attr-selectors', 'Attribute Selectors'],
           ['/css/bem', 'BEM'],
           ['/css/boilerplate', 'Boilerplate'],
-          ['/css/props', 'CSS Properties'],
-          ['/css/tricks', 'CSS Tricks'],
+          ['/css/box-shadow', 'Box Shadow'],
           ['/css/grid', 'CSS Grid'],
+          ['/css/tricks', 'CSS Tricks'],
           ['/css/variables', 'CSS Variables'],
           ['/css/flexbox', 'Flexbox'],
+          ['/css/gradients', 'Gradients'],
           ['/css/images', 'Images'],
-          ['/css/general-info', 'General Info']
+          ['/css/general-info', '*General Info']
         ]
       },
       {

@@ -1,60 +1,8 @@
 ---
-title: CSS Properties
+title: Gradients
 ---
 
-# Common CSS Properties
-
-## Box shadow
-
-``` css
- /* box-shadow: X-value, Y-value, blur, color */
- box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-```
-
-## Text Alignment
-
-Center align text:
-
-```css
- .element {
-  /* in relation to parent */
-   top: 50%;
-   left: 50%;  
-   /* in relation to element itself, (move it 50% to the left and top) */
-   transform: translate(-50%, -50%);
-  }
-
-    /* move something up on either axis */
-    transform: translateY(-3px);
-```
-
-Set text in 2 columns:
-
-``` css
- column-count: 2;
- column-gap: 4rem; 
- /* adds a border */
- column-rule: 1px solid $cecece;
- /* auto adds hyphens to text */
- hyphens: auto
-```
-
-## Text Highlight
-Highlight cover when mouse drags over text
-
-``` css
- ::selection {
-   background: orange;
-   color: #fff;
- }
-
- ::mod-selection {
-    background: orange;
-    color: #fff;
- }
-```
-
-## Gradients
+# Gradients
 Gradients always have to be defined by background image, (include direction and the colors you want)
 
 <style>
