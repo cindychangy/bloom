@@ -10,8 +10,8 @@ module.exports = {
         children: [
           ['/components/buttons', 'Buttons'],
           ['/components/forms', 'Forms'],
-          ['/components/hovers', 'Hovers'],
           ['/components/fullscreen', 'Fullscreen'],
+          ['/components/hovers', 'Hovers'],
         ]
       },
       {
@@ -38,8 +38,13 @@ module.exports = {
         collapsable: true,
         children: [
           ['/js/arrays', 'Arrays'],
+          ['/js/es6', 'ES6'],
+          ['/js/forms', 'Forms'],
           ['/js/functions', 'Functions'],
           ['/js/jquery', 'jQuery'],
+          ['/js/objects', 'Objects'],
+          ['/js/regex', 'Regex'],
+          ['/js/window', 'Window'],
         ]
       },
       {
