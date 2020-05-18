@@ -39,12 +39,18 @@ module.exports = {
         children: [
           ['/js/arrays', 'Arrays'],
           ['/js/es6', 'ES6'],
+          ['/js/events', 'Events'],
           ['/js/forms', 'Forms'],
           ['/js/functions', 'Functions'],
+          ['/js/higher-order', 'Higher Order Functions'],
           ['/js/jquery', 'jQuery'],
+          ['/js/loops', 'Loops'],
           ['/js/objects', 'Objects'],
+          ['/js/promises', 'Promises'],
           ['/js/regex', 'Regex'],
+          ['/js/requests', 'Requests'],
           ['/js/window', 'Window'],
+          ['/js/general-info', '*General Info'],
         ]
       },
       {
