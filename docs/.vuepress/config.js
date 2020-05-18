@@ -35,7 +35,8 @@ module.exports = {
         title: 'Javascript',
         collapsable: true,
         children: [
-          ['/js/thing', 'Thing']
+          ['/js/arrays', 'Arrays'],
+          ['/js/functions', 'Functions']
         ]
       },
       {
