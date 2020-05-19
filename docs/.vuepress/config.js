@@ -9,9 +9,15 @@ module.exports = {
         collapsable: true,
         children: [
           ['/components/buttons', 'Buttons'],
+          ['/components/cards', 'Cards'],
+          ['/components/checkbox', 'Checkbox'],
+          ['/components/dropdown', 'Dropdown'],
           ['/components/forms', 'Forms'],
           ['/components/fullscreen', 'Fullscreen'],
           ['/components/hovers', 'Hovers'],
+          ['/components/navigation', 'Nav Bars'],
+          ['/components/popup', 'Popup'],
+          ['/components/radiobutton', 'Radio Buttons'],
         ]
       },
       {
@@ -69,7 +75,8 @@ module.exports = {
           ['/dev/globbing', 'Globbing'],
           ['/dev/npm', 'NPM'],
           ['/dev/seo', 'SEO'],
-          ['/dev/wordpress', 'Wordpress']
+          ['/dev/terminology', 'Terminology'],
+          ['/dev/wordpress', 'Wordpress'],
         ]
       },
     ]
