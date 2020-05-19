@@ -44,6 +44,7 @@ module.exports = {
           ['/js/functions', 'Functions'],
           ['/js/higher-order', 'Higher Order Functions'],
           ['/js/jquery', 'jQuery'],
+          ['/js/local-storage', 'Local Storage'],
           ['/js/loops', 'Loops'],
           ['/js/methods', 'Methods'],
           ['/js/objects', 'Objects'],
