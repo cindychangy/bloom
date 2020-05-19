@@ -45,6 +45,7 @@ module.exports = {
           ['/js/higher-order', 'Higher Order Functions'],
           ['/js/jquery', 'jQuery'],
           ['/js/loops', 'Loops'],
+          ['/js/methods', 'Methods'],
           ['/js/objects', 'Objects'],
           ['/js/promises', 'Promises'],
           ['/js/regex', 'Regex'],
