@@ -62,7 +62,7 @@ input[type="radio"]:checked + label:after {
 
 </style>                         
 
-<div style="height:30px;"></div>
+<div style="height:15px;"></div>
 
 <ul class="options">
   <li>
@@ -75,7 +75,7 @@ input[type="radio"]:checked + label:after {
   </li>
 </ul>
 
-<div style="height:30px;"></div>
+<div style="height:15px;"></div>
 
 ```html
 <ul class="options">

@@ -9,7 +9,6 @@ module.exports = {
         collapsable: true,
         children: [
           ['/components/buttons', 'Buttons'],
-          ['/components/cards', 'Cards'],
           ['/components/checkbox', 'Checkbox'],
           ['/components/dropdown', 'Dropdown'],
           ['/components/forms', 'Forms'],

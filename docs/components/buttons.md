@@ -5,6 +5,7 @@ title: Buttons
 # Buttons
 **Best practices**, use an `<a>` tag when the "button" goes to another page or content on a page, and `<button>` if there is no meaningful `href` and an action needs to happen, like an "onclick" in javascript or in a form.
 
+<div style="height:10px;"></div>
 
 <style>
   .btn {
@@ -56,6 +57,8 @@ title: Buttons
 <button class="btn btn--purple">Regular button</button>
 <button class="btn btn--purple btn--rounded">Rounded button</button>
 </div>
+
+<div style="height:15px;"></div>
 
 ``` scss
   .btn {
