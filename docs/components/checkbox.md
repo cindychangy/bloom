@@ -11,36 +11,45 @@ title: Checkbox
   position: relative;
 }
 
-[type="checkbox"] + span {
+input[type="checkbox"] + span {
   margin-left: 20px;
-  color: #000;
+  color: #999ea7;
   cursor: pointer;
 }
 
-[type="checkbox"]:checked,
-[type="checkbox"]:not(:checked) {
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked) {
   opacity: 0;
   height: 0;
   width: 0;
 }
 
-[type="checkbox"]:checked + span:before,
-[type="checkbox"]:not(:checked) + span:before {
+input[type="checkbox"]:checked + span:before,
+input[type="checkbox"]:not(:checked) + span:before {
   content: '';
   position: absolute;
   left: 0;
   top: 1px;
   width: 14px;
   height: 14px;
-  border: solid 2px #cecece;
+  border: solid 2px #999ea7;
   background: #fff;
 }
 
-[type="checkbox"]:checked + span:before {
+input[type="checkbox"]:checked + span:before {
   content: '';
   background-image: url('https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/checkmark-24-512.png');
   background-size: 14px;
 }
+
+input[type="checkbox"]:checked + span:before {
+border: solid 2px #000;
+}
+
+input[type="checkbox"]:checked + span {
+    color: #000;
+}
+
 </style>                         
 
 <div style="height:30px;"></div>
@@ -66,6 +75,7 @@ title: Checkbox
 //styles the label
 [type="checkbox"] + span {
   margin-left: 20px;
+  color: #72777f;
   cursor: pointer;
 }
 
@@ -86,7 +96,7 @@ title: Checkbox
   top: 1px;
   width: 14px;
   height: 14px;
-  border: solid 2px #cecece;
+  border: solid 2px #72777f;
   background: #fff;
 }
 
@@ -95,6 +105,15 @@ title: Checkbox
   content: '';
   background-image: url('image-url');
   background-size: 14px;
+}
+
+//shows selected option darker
+input[type="checkbox"]:checked + span:before {
+border: solid 2px #000;
+}
+
+input[type="checkbox"]:checked + span {
+  color: #000;
 }
 
 ```
