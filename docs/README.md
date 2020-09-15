@@ -1,5 +1,3 @@
----
-home: false
-sidebar: true
-footer: 2020 Copyright © Cindy Chang
----
+## Component Library
+
+Built with Vue Press
